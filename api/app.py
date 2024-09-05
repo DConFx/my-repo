@@ -12,3 +12,6 @@ def get_info():
 @app.route('/login')
 def get_login():
     return "login page"
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
