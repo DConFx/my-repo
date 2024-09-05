@@ -30,7 +30,7 @@ jobs:
       # Build the Docker image
       - name: Build Docker Image
         run: |
-          docker build -t my-app:latest .
+          docker build -t my-app:latest ./api
 
       # Tag the Docker image for ECR
       - name: Tag Docker Image
